@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: #007BFF;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s; /* suaviza a mudança de cor */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
